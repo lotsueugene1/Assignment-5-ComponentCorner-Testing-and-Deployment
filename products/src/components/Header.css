@@ -1,0 +1,112 @@
+/*
+ * AI citation: These styles were generated with assistance from OpenAI Codex.
+ */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 20px 32px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.18);
+}
+
+.app-header .logo {
+  margin: 0;
+  color: #60a5fa;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.app-header .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.app-header .nav-link {
+  padding: 8px 12px;
+  color: #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.app-header .nav-link:hover {
+  color: #ffffff;
+  background: #1e3a5f;
+}
+
+.app-header .nav-link:focus-visible {
+  color: #ffffff;
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .app-header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .app-header .nav-menu {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-header .nav-link {
+    transition: none;
+  }
+}
+
+/*
+ * AI-generated cart badge styles (OpenAI Codex).
+ */
+.app-header .cart-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  color: #e2e8f0;
+}
+
+.app-header .cart-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.app-header .cart-container > span:last-child {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  color: #ffffff;
+  background-color: #ef4444;
+  border: 2px solid #0f172a;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}

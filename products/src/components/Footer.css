@@ -1,0 +1,93 @@
+/*
+ * AI citation: These styles were generated with assistance from OpenAI Codex.
+ */
+
+.app-footer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 32px;
+  margin-top: 48px;
+  padding: 36px 32px;
+  color: #cbd5e1;
+  background: #0f172a;
+  border-top: 1px solid #1e293b;
+  text-align: left;
+}
+
+.app-footer .footer-brand,
+.app-footer .footer-contact,
+.app-footer .footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app-footer .footer-brand {
+  gap: 8px;
+}
+
+.app-footer .footer-logo {
+  color: #60a5fa;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.app-footer .footer-tagline {
+  max-width: 280px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.app-footer .footer-contact {
+  gap: 8px;
+  font-size: 0.88rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+.app-footer .footer-nav {
+  gap: 6px;
+}
+
+.app-footer a {
+  padding: 3px 0;
+  color: #cbd5e1;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  font-weight: 550;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.app-footer a:hover {
+  color: #ffffff;
+}
+
+.app-footer a:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .app-footer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .app-footer .footer-brand,
+  .app-footer .footer-contact,
+  .app-footer .footer-nav {
+    align-items: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-footer a {
+    transition: none;
+  }
+}
