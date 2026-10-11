@@ -9,8 +9,6 @@ function Header({ cartCount }) {
         <nav className="nav-menu">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/products" className="nav-link">Products</Link>
-          <Link to="/about" className="nav-link">About</Link>
-          <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
 
         <div className="cart-container"> 
